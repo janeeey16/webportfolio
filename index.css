@@ -1,0 +1,44 @@
+/* Custom CSS code */
+
+/* Styling for the navbar */
+.navbar {
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #9A031E;
+}
+
+.nav-link:hover {
+  color: #321325;
+  font-weight: bold;
+}
+
+h1 {
+  color: #5F0F40;
+  font-family: 'Consolas', monospace;
+}
+
+
+h3 {
+  color: black;
+  font-family: 'Consolas', monospace;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Consolas', monospace;
+}
