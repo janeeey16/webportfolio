@@ -15,40 +15,50 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+<!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5796775e7d.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+
 </head>
 
 <body>
 <!-- NAVIGATION BAR HERE -->
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <a href="#landing" class="navbar-brand d-lg-none">Charles</a>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <a href="#landing" class="navbar-brand d-lg-none">Jane Ann</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-nav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="portfolio-nav">
             <ul class="navbar-nav ml-auto text-center text-md-left">
                 <li class="nav-item">
-                    <a href="#landing" class="nav-link">Home</a>
+                    <a href="#landing" class="nav-link text-dark">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link text-dark">Projects</a>
                 </li>
             </ul>
-            <a href="#landing" class="navbar-brand mx-3 d-none d-lg-inline">Jane Ann</a>
+            <a href="#landing" class="navbar-brand mx-3 d-none d-lg-inline text-dark">Jane Ann</a>
             <ul class="navbar-nav pl-0 mr-auto text-center text-md-left">
                 <li class="nav-item">
-                    <a href="#tools" class="nav-link">Tools</a>
+                    <a href="#tools" class="nav-link text-dark">Tools</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link text-dark">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+
 <!-- ABOUT ME HERE -->
             <div class="container-fluid">
-            <div class="row" style="background-color: #f4e4d7; justify-content: center; align-items: center; padding: 1rem 0 3rem 0;" id="landing">
+            <div class="row" style="background-color: #ffecb8; justify-content: center; align-items: center; padding: 1rem 0 3rem 0;" id="landing">
                 <div class="col-10 col-md-3 p-3 py-lg-5">
-                    <img src="./images/profilepicture.jpg" class="rounded-circle border border-dark img-fluid">
+                    <img src="./images/profilepicture.png" class="rounded-circle border border-dark img-fluid">
                 </div>
                 <div class="col-md-7 col-lg-5 text-dark pl-md-5 py-lg-5">
                     <h1 class="mt-2 text-center text-md-left" id="myName">Jane Ann</h1>
@@ -58,8 +68,9 @@
                     </p>
                 </div>
             </div>
+
 <!-- MY PROJECTS HERE -->
-            <div class="row" style="background-color: #fbe5ee; justify-content: center;">
+            <div class="row" style="background-color: #f7c297; justify-content: center;">
                         
                 <h1 class="mt-5 mb-1 text-center">My Projects</h1>
 
@@ -67,39 +78,36 @@
                 
                 <div class="card col-md-3">
                     <div class="card-body">
-                        <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top">
-                        <h5 class="card-title">Project 1</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Programming Basics</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <a href="#" class="card-link">Link to Project</a>
+                        <img src="./images/learning bootstrap.png" class="card-img-top">
+                        <h5 class="card-title">Learning Bootstrap</h5>
+                        <p class="card-text">Bootstrap has been a game-changer in my web development journey, teaching me valuable lessons that have transformed my approach to designing and developing websites. Through Bootstrap, I have discovered the power of responsive design, enabling me to create user-friendly experiences across various devices. Additionally, Bootstrap's ready-to-use components have streamlined my workflow, helping me achieve consistent and professional styling effortlessly. Most importantly, Bootstrap has instilled in me a sense of creativity and confidence, empowering me to customize and tailor its elements to reflect my personal style and project needs. Overall, Bootstrap has been a catalyst for my growth as a web developer, equipping me with the skills and knowledge to create visually stunning and functional websites.</p>
+                        <p>Updated 3 mins ago</p>
                     </div>
                 </div>
 
                  <div class="card col-md-3">
                     <div class="card-body">
-                        <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top">
-                        <h5 class="card-title">Project 1</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Programming Basics</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <a href="#" class="card-link">Link to Project</a>
+                        <img src="./images/learning layout.png" class="card-img-top">
+                        <h5 class="card-title">Learning Bootstrap Layout</h5>
+                        <p class="card-text">Bootstrap layouting has been a transformative learning experience for me, revolutionizing the way I structure and organize web content. Through Bootstrap's grid system, I have gained a deep understanding of responsive layout principles, allowing me to create flexible and adaptable designs that seamlessly adjust to different screen sizes. The ability to easily create multi-column layouts and responsive navigation menus has greatly enhanced the usability and user experience of my websites. Furthermore, Bootstrap's predefined CSS classes and components have saved me countless hours of coding, enabling me to focus more on the overall design and functionality of my projects. Overall, Bootstrap layouting has empowered me to create visually appealing and responsive websites with efficiency and precision, elevating the quality of my web development endeavors.</p>
+                        <p>Updated 3 mins ago</p>
                     </div>
                 </div>
 
                  <div class="card col-md-3">
-                    <div class="card-body">
-                        <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top">
-                        <h5 class="card-title">Project 1</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Programming Basics</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <a href="#" class="card-link">Link to Project</a>
+                        <img src="./images/myportfolio.png" class="card-img-top">
+                        <h5 class="card-title">My Portfolio</h5>
+
+                        <p class="card-text">Developing my portfolio has been a significant milestone in my journey as a web developer. It has not only provided me with a platform to showcase my skills, projects, and achievements but also allowed me to reflect on my growth and progress. Building my portfolio using a combination of HTML, CSS, and JavaScript has given me valuable hands-on experience in creating a visually appealing and user-friendly interface. It has taught me the importance of effective content organization, intuitive navigation, and compelling visuals to make a lasting impression on potential clients and employers. Moreover, the process of curating and presenting my projects has deepened my understanding of project management, documentation, and highlighting key features and accomplishments. My portfolio continues to evolve as I learn new technologies and expand my skill set, serving as a living testament to my dedication, creativity, and passion for web development.</p>
+                        <p>Updated 3 mins ago</p>
                     </div>
                 </div>
 
             </div>
             </div>
 
-    <!-- TOOLS -->
-            <div class="row flex-column bg-secondary jumbotron" id="tools">
+<!-- TOOLS -->
+            <div class="row flex-column" id="tools" style="background-color: #FFF6F4">
                 <h1 class="my-1 text-center" >Tools</h1>
                 <div class="row justify-content-center py-3">
                     <div class="col-md-3 col-lg-2 mx-4 my-3">
@@ -156,6 +164,68 @@
                     </div>
                 </div>
             </div>
+
+
+
+<!-- CONTACT -->
+            <h1 class="text-center my-5" id="contact">Contact</h1>
+            <div class="row justify-content-center mb-5 text-dark">
+                <div class="col-3 col-md-1">
+                    <a href="https://www.facebook.com/your-page-url" class="facebook-icon fa-2x" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="col-3 col-md-1">
+                    <a href="https://www.linkedin.com/" class="linkedin-icon fa-2x" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="col-3 col-md-1">
+                    <a href="https://www.gitlab.com/" class="gitlab-icon fa-2x" target="_blank">
+                        <i class="fab fa-gitlab"></i>
+                    </a>
+                </div>
+                <div class="col-3 col-md-1">
+                    <a href="https://www.github.com/" class="github-icon fa-2x" target="_blank">
+                        <i class="fab fa-github"></i>                    
+                    </a>
+                </div>
+            </div>
+
+<!-- MESSAGE US -->
+        <div class="row px-md-2 mb-5">
+                    <div class="col-md-6">
+                        <h4 class="text-center mb-4">Visit Us</h4>
+                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=centro%20escolar%20university%20manila&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="text-center mb-4">Message Us</h4>
+                        <form>
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark btn-block">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+<!-- FOOTER -->
+        <footer class="mt-5 p-3 text-dark" style="background-color: #90d2d8; display: flex; justify-content: center; align-items: center;">
+            <h6 class="text-center mr-auto">Jane Ann</h6>
+            <h6 class="text-center mx-auto">Full Stack Web Developer</h6>
+            <h6 class="text-center ml-auto">&copy; All Rights Reserved 2023</h6>
+        </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

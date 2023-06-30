@@ -2,8 +2,9 @@
 
 /* Styling for the navbar */
 .navbar {
-  background-color: lightyellow;
+  background-color: #b7ded2;
   padding: 10px;
+  font-family: 'Consolas', monospace;
 }
 
 .navbar-nav {
@@ -18,12 +19,16 @@
 
 .nav-link {
   text-decoration: none;
-  color: #9A031E;
+  color: #FFF6F4;
 }
 
 .nav-link:hover {
-  color: #321325;
+  color: black;
   font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: black;
 }
 
 h1 {
@@ -37,8 +42,24 @@ h3 {
   font-family: 'Consolas', monospace;
 }
 
+h4 {
+  color: black;
+  font-family: 'Consolas', monospace;
+}
+
+h6 {
+  color: black;
+  font-family: 'Consolas', monospace;
+}
+
 p {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5;
   font-family: 'Consolas', monospace;
+}
+
+#gmap_canvas {
+  height: 85%; /* Optional - Set a specific height for the maps section */
+  width: 100%; /* Optional - Set a specific width for the maps section */
+  /* Additional CSS properties for the maps section */
 }
